@@ -1,7 +1,11 @@
 package io.github.yourzhangjian;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class ActivitiApplication {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SpringApplication.run(ActivitiApplication.class, args);
     }
 }
